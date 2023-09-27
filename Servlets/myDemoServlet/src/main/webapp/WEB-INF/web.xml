@@ -8,10 +8,30 @@
         <servlet-name>MainServlet</servlet-name>
         <servlet-class>org.example.servlet.MainServlet</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>MainServlet</servlet-name>
-        <url-pattern>/MainServlet</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BookServlet</servlet-name>
+        <servlet-class>org.example.servlet.BookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookServlet</servlet-name>
+        <url-pattern>/books</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!-- закоментил как пример возврата только jsp    >-->
+<!--    <servlet>-->
+<!--        <servlet-name>books</servlet-name>-->
+<!--        <jsp-file>/WEB-INF/books.jsp</jsp-file>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>books</servlet-name>-->
+<!--        <url-pattern>/books</url-pattern>-->
+<!--    </servlet-mapping>-->
 
 </web-app>
