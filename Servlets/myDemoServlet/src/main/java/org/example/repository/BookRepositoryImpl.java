@@ -18,5 +18,9 @@ public class BookRepositoryImpl implements BookRepository {
     public List<BookEntity> getAll() {
         return books;
     }
+    @Override
+    public void add(BookEntity bookEntity) {
+        bookEntity.setTitle();
+    }
 
 }

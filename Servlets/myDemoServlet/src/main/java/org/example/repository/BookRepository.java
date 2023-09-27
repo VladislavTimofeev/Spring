@@ -8,6 +8,6 @@ public interface BookRepository {
 
     List<BookEntity> getAll();
 
-
+    void add(BookEntity bookEntity);
 
 }
