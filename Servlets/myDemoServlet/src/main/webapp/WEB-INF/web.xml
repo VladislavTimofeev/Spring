@@ -22,6 +22,15 @@
         <url-pattern>/books</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>AddBookServlet</servlet-name>
+        <servlet-class>org.example.servlet.AddBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBookServlet</servlet-name>
+        <url-pattern>/addbooks</url-pattern>
+    </servlet-mapping>
+
 
 
     <!-- закоментил как пример возврата только jsp    >-->
